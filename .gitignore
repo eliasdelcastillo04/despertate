@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager & Xcode
+.build/
+.swiftpm/
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+
+# Node / Web
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local tooling / cache
+.agents/
+graphify-out/
