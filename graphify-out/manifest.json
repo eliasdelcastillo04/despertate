@@ -1,0 +1,386 @@
+{
+  "package.json": {
+    "mtime": 1793400699.8496869,
+    "seen": 1793402078.8093922,
+    "ast_hash": "f725d174421d0d5d95d9fc4ffacf870f",
+    "semantic_hash": ""
+  },
+  "postcss.config.js": {
+    "mtime": 1793399611.2789345,
+    "seen": 1793400119.947618,
+    "ast_hash": "c735540bb63936a123bc867d950c9f69",
+    "semantic_hash": "c735540bb63936a123bc867d950c9f69"
+  },
+  "src/App.tsx": {
+    "mtime": 1793399953.3368084,
+    "seen": 1793400119.9476202,
+    "ast_hash": "1e133ee7d37d36e18f49d6aa9fa2250b",
+    "semantic_hash": "1e133ee7d37d36e18f49d6aa9fa2250b"
+  },
+  "src/components/alarms/AlarmModal.tsx": {
+    "mtime": 1793400829.3494108,
+    "seen": 1793402078.8093948,
+    "ast_hash": "46b108d1cd0bac51782bd45aa324cd7f",
+    "semantic_hash": ""
+  },
+  "src/components/alarms/AlarmRow.tsx": {
+    "mtime": 1793400730.516043,
+    "seen": 1793402078.809396,
+    "ast_hash": "20f57c37d6029e9e494411e125f2da65",
+    "semantic_hash": ""
+  },
+  "src/components/analytics/SleepPhaseWeeklyChart.tsx": {
+    "mtime": 1793399801.7974284,
+    "seen": 1793400119.9476259,
+    "ast_hash": "27b99b74beaaf2c88de9205145d606c7",
+    "semantic_hash": "27b99b74beaaf2c88de9205145d606c7"
+  },
+  "src/components/analytics/WakeConsistencyChart.tsx": {
+    "mtime": 1793399791.713137,
+    "seen": 1793400119.947627,
+    "ast_hash": "865b5ece1308cb808f37b9689acf9839",
+    "semantic_hash": "865b5ece1308cb808f37b9689acf9839"
+  },
+  "src/components/chat/DataChatDrawer.tsx": {
+    "mtime": 1793399886.7496135,
+    "seen": 1793400119.947629,
+    "ast_hash": "ecef6d22be844517104be61cfa3bbb2e",
+    "semantic_hash": "ecef6d22be844517104be61cfa3bbb2e"
+  },
+  "src/components/clock/AppleClockView.tsx": {
+    "mtime": 1793399864.9744823,
+    "seen": 1793400119.9476302,
+    "ast_hash": "1b255cc22bb9b320ceee505e656a7cac",
+    "semantic_hash": "1b255cc22bb9b320ceee505e656a7cac"
+  },
+  "src/components/common/AppleToggle.tsx": {
+    "mtime": 1793400676.55719,
+    "seen": 1793402078.8094,
+    "ast_hash": "0c34c12a49e45db8a380430d9e51d2c1",
+    "semantic_hash": ""
+  },
+  "src/components/common/CupertinoSegmentedControl.tsx": {
+    "mtime": 1793400693.7074692,
+    "seen": 1793402078.8094,
+    "ast_hash": "54e2c912d5fbb5bf39d99a455d6f7bb0",
+    "semantic_hash": ""
+  },
+  "src/components/common/KpiCard.tsx": {
+    "mtime": 1793399736.750252,
+    "seen": 1793400119.947635,
+    "ast_hash": "7ea9bb55358e0c83a6c054efdb53aea1",
+    "semantic_hash": "7ea9bb55358e0c83a6c054efdb53aea1"
+  },
+  "src/components/sidepanel/InvestigationSidePanel.tsx": {
+    "mtime": 1793400921.0076175,
+    "seen": 1793402078.8094022,
+    "ast_hash": "00e9c086af3ef7a8fe5866ad32bbe51c",
+    "semantic_hash": ""
+  },
+  "src/components/table/WakeLogTable.tsx": {
+    "mtime": 1793400884.8661613,
+    "seen": 1793402078.8094022,
+    "ast_hash": "03bb9ec87995f02d4c7a6645644a4847",
+    "semantic_hash": ""
+  },
+  "src/main.tsx": {
+    "mtime": 1793399935.6948283,
+    "seen": 1793400119.947639,
+    "ast_hash": "aa122bdcf833a2c00fdf9ca8e5348675",
+    "semantic_hash": "aa122bdcf833a2c00fdf9ca8e5348675"
+  },
+  "src/services/soundService.ts": {
+    "mtime": 1793399683.8476377,
+    "seen": 1793400119.9476402,
+    "ast_hash": "a9e7d71243015349d405dc269926e6e9",
+    "semantic_hash": "a9e7d71243015349d405dc269926e6e9"
+  },
+  "src/services/storageService.ts": {
+    "mtime": 1793399703.7549932,
+    "seen": 1793400119.947642,
+    "ast_hash": "5fc87c6c49b587946bf524fc140c58c9",
+    "semantic_hash": "5fc87c6c49b587946bf524fc140c58c9"
+  },
+  "src/types/alarm.ts": {
+    "mtime": 1793399949.21028,
+    "seen": 1793400119.9476428,
+    "ast_hash": "994b80fd3c86df8dd3baf08e3e74bf50",
+    "semantic_hash": "994b80fd3c86df8dd3baf08e3e74bf50"
+  },
+  "tailwind.config.js": {
+    "mtime": 1793399620.1226923,
+    "seen": 1793400119.947645,
+    "ast_hash": "a1a417ffb9967d3e5a01cd9d118bbf63",
+    "semantic_hash": "a1a417ffb9967d3e5a01cd9d118bbf63"
+  },
+  "tsconfig.json": {
+    "mtime": 1793399603.6038244,
+    "seen": 1793400119.947646,
+    "ast_hash": "6b0318b9b75bbb74c7893a0e5ebfd76a",
+    "semantic_hash": "6b0318b9b75bbb74c7893a0e5ebfd76a"
+  },
+  "vite.config.ts": {
+    "mtime": 1793399607.4359324,
+    "seen": 1793400119.947648,
+    "ast_hash": "eb98c53348e57a55028f415914969a6b",
+    "semantic_hash": "eb98c53348e57a55028f415914969a6b"
+  },
+  "index.html": {
+    "mtime": 1793400627.8628228,
+    "seen": 1793402078.8094158,
+    "ast_hash": "5105684ab28bb8fe5dde2be9d04b3247",
+    "semantic_hash": ""
+  },
+  ".build/arm64-apple-macosx/debug/Alarma.build/output-file-map.json": {
+    "mtime": 1793400822.6057963,
+    "seen": 1793402078.8093739,
+    "ast_hash": "bd1daad0a4876b873d4a0cf575185be2",
+    "semantic_hash": ""
+  },
+  ".build/arm64-apple-macosx/debug/Modules/Alarma.abi.json": {
+    "mtime": 1793400823.0625575,
+    "seen": 1793402078.809376,
+    "ast_hash": "0a4af882c2c2f56d36e8540ae8c40bbf",
+    "semantic_hash": ""
+  },
+  ".build/arm64-apple-macosx/debug/description.json": {
+    "mtime": 1793400822.609525,
+    "seen": 1793402078.809377,
+    "ast_hash": "e7f1629449576a9bf2ca966ebabc34d0",
+    "semantic_hash": ""
+  },
+  ".build/arm64-apple-macosx/debug/plugin-tools-description.json": {
+    "mtime": 1793400822.602238,
+    "seen": 1793402078.809377,
+    "ast_hash": "e7f1629449576a9bf2ca966ebabc34d0",
+    "semantic_hash": ""
+  },
+  ".build/workspace-state.json": {
+    "mtime": 1793400709.283471,
+    "seen": 1793402078.8093781,
+    "ast_hash": "2e5a5ad2a66d6697a649f98dcd8f1c38",
+    "semantic_hash": ""
+  },
+  "Package.swift": {
+    "mtime": 1793400716.2340062,
+    "seen": 1793402078.809379,
+    "ast_hash": "97c3ec673ad7bf94e9ee632302e3f6f4",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/App/AlarmaApp.swift": {
+    "mtime": 1793400687.147462,
+    "seen": 1793402078.809379,
+    "ast_hash": "8414cae0d17c4881ffad24599eee3bb6",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Models/Alarm.swift": {
+    "mtime": 1793400426.8765721,
+    "seen": 1793402078.80938,
+    "ast_hash": "82aefed78a4c37aa7af087b6a09dbdd7",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Models/AlarmMetrics.swift": {
+    "mtime": 1793400447.711066,
+    "seen": 1793402078.80938,
+    "ast_hash": "ff4a76bcaee80d918c7edb65c548d8c4",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Models/WakeLog.swift": {
+    "mtime": 1793400434.6527731,
+    "seen": 1793402078.809381,
+    "ast_hash": "274ba45ce502a4b721d3549cb29d6d24",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Services/HapticManager.swift": {
+    "mtime": 1793400465.7109969,
+    "seen": 1793402078.809381,
+    "ast_hash": "84a3d5096f69755af6b00f8ee11e526a",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Services/SoundEngine.swift": {
+    "mtime": 1793400458.490224,
+    "seen": 1793402078.809382,
+    "ast_hash": "ff97ac5f0a146594ab0b2d3953c6d6a7",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Services/StorageService.swift": {
+    "mtime": 1793400481.3460472,
+    "seen": 1793402078.809382,
+    "ast_hash": "3edbe775d9421d5e9a61ea255b6f0231",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/ViewModels/AlarmViewModel.swift": {
+    "mtime": 1793400494.9467397,
+    "seen": 1793402078.809383,
+    "ast_hash": "d77192ea26157d094e9d07aec4a1f73b",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Alarms/AlarmEditSheet.swift": {
+    "mtime": 1793400754.9297147,
+    "seen": 1793402078.8093839,
+    "ast_hash": "c091ab7922a5f3d7f1190ce3ee166c0c",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Alarms/AlarmListView.swift": {
+    "mtime": 1793400762.9079132,
+    "seen": 1793402078.8093839,
+    "ast_hash": "27b5a0ccf052560e4681637998def3bd",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Alarms/AlarmRowView.swift": {
+    "mtime": 1793400533.4530947,
+    "seen": 1793402078.809385,
+    "ast_hash": "67a7b1051fb5e43b24a6787e18050a0b",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Analytics/AnalyticsDashboardView.swift": {
+    "mtime": 1793400628.332804,
+    "seen": 1793402078.809385,
+    "ast_hash": "552cf8b0ae353692a0b96d0891621ac3",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Analytics/SleepDurationChartView.swift": {
+    "mtime": 1793400592.8057852,
+    "seen": 1793402078.809386,
+    "ast_hash": "fb556e23a7e575e86a05898d3c712f2f",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Analytics/WakeConsistencyChartView.swift": {
+    "mtime": 1793400583.6492536,
+    "seen": 1793402078.809386,
+    "ast_hash": "3f5f560e3951846cac6ce0341d37f678",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Analytics/WakeLogDetailSheet.swift": {
+    "mtime": 1793400611.218498,
+    "seen": 1793402078.809387,
+    "ast_hash": "6afe5414bba259dd03c44e9b3b3c05c5",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Chat/DataChatSheet.swift": {
+    "mtime": 1793400811.6508007,
+    "seen": 1793402078.809388,
+    "ast_hash": "bd599546833b5955ac16b8ac69707567",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Clock/AppleClockView.swift": {
+    "mtime": 1793400641.9608405,
+    "seen": 1793402078.809388,
+    "ast_hash": "a9253b1aa3550b33b745c72ab4b45732",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Clock/StopwatchView.swift": {
+    "mtime": 1793400776.9331896,
+    "seen": 1793402078.809389,
+    "ast_hash": "6a475b933af11d22c80fbfc4909e2578",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Components/KPICardView.swift": {
+    "mtime": 1793400505.425669,
+    "seen": 1793402078.809389,
+    "ast_hash": "6d9009503deb102fc5f2fd44453b77e2",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/Components/StatusBadgeView.swift": {
+    "mtime": 1793400512.4928727,
+    "seen": 1793402078.80939,
+    "ast_hash": "697490524a434bf0a5f1266062dc01ad",
+    "semantic_hash": ""
+  },
+  "Sources/Alarma/Views/MainTabView.swift": {
+    "mtime": 1793400680.7967541,
+    "seen": 1793402078.80939,
+    "ast_hash": "c99e6dc1af276755a0dbba4988be7fe4",
+    "semantic_hash": ""
+  },
+  "src/test/helpers/alarmEngine.ts": {
+    "mtime": 1793400889.189903,
+    "seen": 1793402078.8094049,
+    "ast_hash": "bfb45fdb4802f518712346a01ad60485",
+    "semantic_hash": ""
+  },
+  "src/test/helpers/wcagContrast.ts": {
+    "mtime": 1793400853.8608031,
+    "seen": 1793402078.809406,
+    "ast_hash": "ea83a191159823766035a304bd70db28",
+    "semantic_hash": ""
+  },
+  "src/test/sanity.test.ts": {
+    "mtime": 1793400785.3787127,
+    "seen": 1793402078.809406,
+    "ast_hash": "955f1e96e55f2dfc0c4cc9ebc02867aa",
+    "semantic_hash": ""
+  },
+  "src/test/setup.ts": {
+    "mtime": 1793400776.121863,
+    "seen": 1793402078.809407,
+    "ast_hash": "7d8d1a0a1a8f9f4d63319b3d005d4b07",
+    "semantic_hash": ""
+  },
+  "src/test/tier1-feature-coverage.test.tsx": {
+    "mtime": 1793400939.1020772,
+    "seen": 1793402078.809407,
+    "ast_hash": "2e645df8a4a2da931a99379893c962ef",
+    "semantic_hash": ""
+  },
+  "vitest.config.ts": {
+    "mtime": 1793400780.9170547,
+    "seen": 1793402078.80941,
+    "ast_hash": "015c0511ace114121137e1fe99ba6314",
+    "semantic_hash": ""
+  },
+  ".agents/teamwork/teamwork_explorer_ux_survey_2/BRIEFING.md": {
+    "mtime": 1793400404.8008804,
+    "seen": 1793402078.809411,
+    "ast_hash": "b5214f6c994e7d89008a826b255fd3cf",
+    "semantic_hash": ""
+  },
+  ".agents/teamwork/teamwork_explorer_ux_survey_2/DISPATCH.md": {
+    "mtime": 1793400404.8014796,
+    "seen": 1793402078.809412,
+    "ast_hash": "8bc7d3608cadba7992a1ce135449bf67",
+    "semantic_hash": ""
+  },
+  ".agents/teamwork/teamwork_explorer_ux_survey_2/handoff.md": {
+    "mtime": 1793400404.801718,
+    "seen": 1793402078.809412,
+    "ast_hash": "9dd3e200d830d6805bfa6b0eb58e5f2a",
+    "semantic_hash": ""
+  },
+  ".agents/teamwork/teamwork_explorer_ux_survey_2/progress.md": {
+    "mtime": 1793400415.344542,
+    "seen": 1793402078.8094132,
+    "ast_hash": "92cf5c3ab5a2b1bbf9766b413e3add1f",
+    "semantic_hash": ""
+  },
+  ".build/arm64-apple-macosx/debug/AlarmaApp.dSYM/Contents/Resources/Relocations/aarch64/AlarmaApp.yml": {
+    "mtime": 1793400824.444055,
+    "seen": 1793402078.8094132,
+    "ast_hash": "85f201ea58d16b6431ba6b21475a518a",
+    "semantic_hash": ""
+  },
+  ".build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt": {
+    "mtime": 1793400723.565529,
+    "seen": 1793402078.809414,
+    "ast_hash": "91e7e18f911c563e328f197eb32d1fb1",
+    "semantic_hash": ""
+  },
+  ".build/debug.yaml": {
+    "mtime": 1793400822.6088493,
+    "seen": 1793402078.809414,
+    "ast_hash": "5f4ba142231c4e8f96ccedaa7eae39fd",
+    "semantic_hash": ""
+  },
+  ".build/plugin-tools.yaml": {
+    "mtime": 1793400822.5970483,
+    "seen": 1793402078.8094149,
+    "ast_hash": "5f4ba142231c4e8f96ccedaa7eae39fd",
+    "semantic_hash": ""
+  },
+  "PROJECT.md": {
+    "mtime": 1793400513.2658386,
+    "seen": 1793402078.8094149,
+    "ast_hash": "17ce4af64003d8f1a4356568c8ce238b",
+    "semantic_hash": ""
+  }
+}

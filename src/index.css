@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-primary: #F2F2F7;
+    --color-bg-card: #FFFFFF;
+    --color-border: rgba(60, 60, 67, 0.12);
+    --color-text-primary: #1C1C1E;
+    --color-text-secondary: #636366;
+    --color-text-muted: #636366;
+  }
+
+  .dark {
+    --color-bg-primary: #000000;
+    --color-bg-card: #1C1C1E;
+    --color-border: rgba(255, 255, 255, 0.12);
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #8E8E93;
+    --color-text-muted: #8E8E93;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
+
+/* Apple HIG custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(142, 142, 147, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(142, 142, 147, 0.5);
+}
+
+/* Cupertino frosted blur effect */
+.apple-glass {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+}
+
+.dark .apple-glass {
+  background: rgba(28, 28, 30, 0.78);
+  backdrop-filter: blur(25px) saturate(190%);
+  -webkit-backdrop-filter: blur(25px) saturate(190%);
+}
+
+.apple-glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.dark .apple-glass-card {
+  background: rgba(30, 30, 32, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Safe Area Inset Utilities (Apple HIG) */
+.safe-top {
+  padding-top: max(16px, env(safe-area-inset-top));
+}
+.safe-bottom {
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
+.safe-left {
+  padding-left: max(16px, env(safe-area-inset-left));
+}
+.safe-right {
+  padding-right: max(16px, env(safe-area-inset-right));
+}
+
+/* WCAG 2.1 AA Compliant Semantic Text Tokens (>= 4.5:1 contrast) */
+.text-hig-secondary {
+  color: #636366;
+}
+.dark .text-hig-secondary {
+  color: #8E8E93;
+}
+
+.text-hig-muted {
+  color: #636366;
+}
+.dark .text-hig-muted {
+  color: #8E8E93;
+}
+
+/* 44x44pt HIG Touch Target Minimum */
+.touch-target-44 {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Touch target invisible hit-box expansion for visually smaller controls */
+.hit-target-44 {
+  position: relative;
+}
+.hit-target-44::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 44px;
+  min-height: 44px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Reduced Motion adaptation */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

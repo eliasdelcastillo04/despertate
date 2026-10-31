@@ -1,0 +1,1939 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.xctest/Contents/MacOS/AlarmaPackageTests",
+      "packagePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma ",
+      "productName" : "AlarmaPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma_Alarma.bundle/Assets.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Assets.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma_Alarma.bundle/Assets.xcassets"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Alarma-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/sources",
+      "importPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/App/AlarmaApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/Alarm.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/AlarmMetrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/WakeLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/HapticManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/SoundEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/StorageService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/ViewModels/AlarmViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmEditSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/AnalyticsDashboardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/SleepDurationChartView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeConsistencyChartView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeLogDetailSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Challenges/AlarmRingingOverlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Chat/DataChatSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/AppleClockView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/StopwatchView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/KPICardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/StatusBadgeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/MainTabView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<Alarma-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Alarma",
+      "moduleOutputPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/Alarma.swiftmodule",
+      "objects" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmaApp.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/Alarm.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmMetrics.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeLog.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/HapticManager.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/SoundEngine.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StorageService.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmViewModel.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmEditSheet.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmListView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmRowView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AnalyticsDashboardView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/SleepDurationChartView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeConsistencyChartView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeLogDetailSheet.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmRingingOverlayView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/DataChatSheet.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AppleClockView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StopwatchView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/KPICardView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StatusBadgeView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/MainTabView.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Alarma_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "alarma_"
+      ],
+      "outputFileMapPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmaApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/Alarm.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/HapticManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/SoundEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StorageService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmEditSheet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmListView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AnalyticsDashboardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/SleepDurationChartView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeConsistencyChartView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeLogDetailSheet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmRingingOverlayView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/DataChatSheet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AppleClockView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StopwatchView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/KPICardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StatusBadgeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/MainTabView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/Alarma.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/App/AlarmaApp.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/Alarm.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/AlarmMetrics.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/WakeLog.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/HapticManager.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/SoundEngine.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/StorageService.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/ViewModels/AlarmViewModel.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmEditSheet.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmListView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmRowView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/AnalyticsDashboardView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/SleepDurationChartView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeConsistencyChartView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeLogDetailSheet.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Challenges/AlarmRingingOverlayView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Chat/DataChatSheet.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/AppleClockView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/StopwatchView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/KPICardView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/StatusBadgeView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/MainTabView.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AlarmaCore-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/sources",
+      "importPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/AlarmDeactivationStateMachine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/InteractiveChallengeEngines.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathChallengeSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblemGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/SeededRandomNumberGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/Alarm.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/AlarmTime.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/ChallengeConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/SoundAsset.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/WeekdaySet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmRepositoryProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AudioPlayerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/JSONFileAlarmRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/NotificationSchedulerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AlarmaCore",
+      "moduleOutputPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaCore.swiftmodule",
+      "objects" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmDeactivationStateMachine.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/InteractiveChallengeEngines.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathChallengeSession.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblem.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblemGenerator.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SeededRandomNumberGenerator.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/Alarm.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmTime.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/ChallengeConfiguration.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SoundAsset.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/WeekdaySet.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmCoordinator.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmRepositoryProtocol.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AudioPlayerService.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/JSONFileAlarmRepository.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/NotificationSchedulerService.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/include/AlarmaCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "alarma_"
+      ],
+      "outputFileMapPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmDeactivationStateMachine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/InteractiveChallengeEngines.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathChallengeSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblemGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SeededRandomNumberGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/Alarm.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmTime.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/ChallengeConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SoundAsset.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/WeekdaySet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmRepositoryProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AudioPlayerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/JSONFileAlarmRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/NotificationSchedulerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/AlarmDeactivationStateMachine.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/InteractiveChallengeEngines.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathChallengeSession.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblem.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblemGenerator.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/SeededRandomNumberGenerator.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/Alarm.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/AlarmTime.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/ChallengeConfiguration.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/SoundAsset.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/WeekdaySet.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmCoordinator.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmRepositoryProtocol.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AudioPlayerService.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/JSONFileAlarmRepository.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/NotificationSchedulerService.swift"
+      ],
+      "tempsPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AlarmaE2ETests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/sources",
+      "importPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaE2ETests/AlarmaE2ETests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AlarmaE2ETests",
+      "moduleOutputPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaE2ETests.swiftmodule",
+      "objects" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/AlarmaE2ETests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "alarma_"
+      ],
+      "outputFileMapPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/AlarmaE2ETests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaE2ETests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaE2ETests/AlarmaE2ETests.swift"
+      ],
+      "tempsPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AlarmaPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/sources",
+      "importPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaE2ETests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AlarmaPackageTests",
+      "moduleOutputPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/include/AlarmaPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "alarma_"
+      ],
+      "outputFileMapPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AlarmaTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/sources",
+      "importPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/AlarmTimeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/InteractiveChallengesAndFSMTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/JSONFileAlarmRepositoryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathProblemGeneratorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathValidationAndPenaltyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/ServicesAndCoordinatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/WeekdaySetTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AlarmaTests",
+      "moduleOutputPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaTests.swiftmodule",
+      "objects" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/AlarmTimeTests.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/InteractiveChallengesAndFSMTests.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/JSONFileAlarmRepositoryTests.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/MathProblemGeneratorTests.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/MathValidationAndPenaltyTests.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/ServicesAndCoordinatorTests.swift.o",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/WeekdaySetTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "alarma_"
+      ],
+      "outputFileMapPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/AlarmTimeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/InteractiveChallengesAndFSMTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/JSONFileAlarmRepositoryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/MathProblemGeneratorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/MathValidationAndPenaltyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/ServicesAndCoordinatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/WeekdaySetTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules/AlarmaTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/AlarmTimeTests.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/InteractiveChallengesAndFSMTests.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/JSONFileAlarmRepositoryTests.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathProblemGeneratorTests.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathValidationAndPenaltyTests.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/ServicesAndCoordinatorTests.swift",
+        "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/WeekdaySetTests.swift"
+      ],
+      "tempsPath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Alarma" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Alarma",
+      "-package-name",
+      "alarma_",
+      "-c",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/App/AlarmaApp.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/Alarm.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/AlarmMetrics.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/WakeLog.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/HapticManager.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/SoundEngine.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/StorageService.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/ViewModels/AlarmViewModel.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmEditSheet.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmListView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmRowView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/AnalyticsDashboardView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/SleepDurationChartView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeConsistencyChartView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeLogDetailSheet.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Challenges/AlarmRingingOverlayView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Chat/DataChatSheet.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/AppleClockView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/StopwatchView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/KPICardView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/StatusBadgeView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/MainTabView.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Alarma_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "alarma_",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AlarmaCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AlarmaCore",
+      "-package-name",
+      "alarma_",
+      "-c",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/AlarmDeactivationStateMachine.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/InteractiveChallengeEngines.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathChallengeSession.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblem.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblemGenerator.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/SeededRandomNumberGenerator.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/Alarm.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/AlarmTime.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/ChallengeConfiguration.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/SoundAsset.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/WeekdaySet.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmCoordinator.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmRepositoryProtocol.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AudioPlayerService.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/JSONFileAlarmRepository.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/NotificationSchedulerService.swift",
+      "-I",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/include/AlarmaCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "alarma_",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AlarmaE2ETests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AlarmaE2ETests",
+      "-package-name",
+      "alarma_",
+      "-c",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaE2ETests/AlarmaE2ETests.swift",
+      "-I",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "alarma_",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AlarmaPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AlarmaPackageTests",
+      "-package-name",
+      "alarma_",
+      "-c",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/include/AlarmaPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "alarma_",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AlarmaTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AlarmaTests",
+      "-package-name",
+      "alarma_",
+      "-c",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/AlarmTimeTests.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/InteractiveChallengesAndFSMTests.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/JSONFileAlarmRepositoryTests.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathProblemGeneratorTests.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathValidationAndPenaltyTests.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/ServicesAndCoordinatorTests.swift",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/WeekdaySetTests.swift",
+      "-I",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "alarma_",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Alarma" : [
+      "AlarmaCore"
+    ],
+    "AlarmaCore" : [
+
+    ],
+    "AlarmaE2ETests" : [
+      "AlarmaCore"
+    ],
+    "AlarmaPackageTests" : [
+      "AlarmaE2ETests",
+      "AlarmaTests",
+      "AlarmaCore"
+    ],
+    "AlarmaTests" : [
+      "AlarmaCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/App/AlarmaApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/Alarm.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/AlarmMetrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Models/WakeLog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/HapticManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/SoundEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Services/StorageService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/ViewModels/AlarmViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmEditSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Alarms/AlarmRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/AnalyticsDashboardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/SleepDurationChartView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeConsistencyChartView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Analytics/WakeLogDetailSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Challenges/AlarmRingingOverlayView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Chat/DataChatSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/AppleClockView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Clock/StopwatchView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/KPICardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/Components/StatusBadgeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/Alarma/Views/MainTabView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/sources"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaApp-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaApp-entitlement.plist"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/Alarm.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmEditSheet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmListView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmRingingOverlayView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AlarmaApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AnalyticsDashboardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/AppleClockView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/DataChatSheet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/HapticManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/KPICardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/MainTabView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/SleepDurationChartView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/SoundEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StatusBadgeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StopwatchView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/StorageService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeConsistencyChartView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeLog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/WakeLogDetailSheet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/Alarma.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/Alarm.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmDeactivationStateMachine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmRepositoryProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmTime.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AudioPlayerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/ChallengeConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/InteractiveChallengeEngines.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/JSONFileAlarmRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathChallengeSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblemGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/NotificationSchedulerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SeededRandomNumberGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SoundAsset.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/WeekdaySet.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaApp.product/Objects.LinkFileList"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/AlarmDeactivationStateMachine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/InteractiveChallengeEngines.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathChallengeSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/MathProblemGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Engine/SeededRandomNumberGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/Alarm.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/AlarmTime.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/ChallengeConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/SoundAsset.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Models/WeekdaySet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AlarmRepositoryProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/AudioPlayerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/JSONFileAlarmRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Sources/AlarmaCore/Services/NotificationSchedulerService.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/sources"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaE2ETests/AlarmaE2ETests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/sources"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/sources"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/Alarm.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmDeactivationStateMachine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmRepositoryProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AlarmTime.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/AudioPlayerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/ChallengeConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/InteractiveChallengeEngines.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/JSONFileAlarmRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathChallengeSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/MathProblemGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/NotificationSchedulerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SeededRandomNumberGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/SoundAsset.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaCore.build/WeekdaySet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaE2ETests.build/AlarmaE2ETests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/AlarmTimeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/InteractiveChallengesAndFSMTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/JSONFileAlarmRepositoryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/MathProblemGeneratorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/MathValidationAndPenaltyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/ServicesAndCoordinatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/WeekdaySetTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/AlarmTimeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/InteractiveChallengesAndFSMTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/JSONFileAlarmRepositoryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathProblemGeneratorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/MathValidationAndPenaltyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/ServicesAndCoordinatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /Tests/AlarmaTests/WeekdaySetTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/AlarmaTests.build/sources"
+    },
+    "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/eliasignaciodelcastillogodoy/Desktop/E/proyectos/Personal/alarma /.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
